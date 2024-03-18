@@ -1,0 +1,37 @@
+body {
+    background-color: #A13C1A;
+    color: hsl(0, 100%, 25%);
+    text-align: left;
+}
+
+section .topper {
+    margin: auto 0.5%;
+    margin-right: 6.5%;
+    margin-left: 6.5%;
+    background-color:rgb(231, 226, 188);
+    padding: 40px; /* how much space is around text */
+}
+
+h1 {
+    font-size: 30px;
+}
+em{
+    font-style:normal;
+}
+
+.big {
+    color: rgb(226, 106, 32);
+
+}
+
+div{
+    
+
+}
+
+main{ 
+    background-color: #F0E4CB;
+    width: 90%;
+    margin: auto;
+
+}
