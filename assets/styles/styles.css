@@ -3,17 +3,26 @@ body {
     color: hsl(0, 100%, 25%);
     text-align: left;
 }
-
-section .topper {
-    margin: auto 0.5%;
-    margin-right: 6.5%;
-    margin-left: 6.5%;
-    background-color:rgb(231, 226, 188);
-    padding: 40px; /* how much space is around text */
+main{ 
+    gap: 50px;
+    background-color: #F0E4CB;
+    border-color: #ECA237;
+    border-width: 10px;
+    border-style: solid;
+    width: 90%;
+    margin: auto;
 }
+
+#topper {
+    background-color: #522402;
+    /* how do I make it fill the blank space above? */
+}
+
+
 
 h1 {
     font-size: 30px;
+    color: #F1D043;
 }
 em{
     font-style:normal;
@@ -26,12 +35,5 @@ em{
 
 div{
     
-
-}
-
-main{ 
-    background-color: #F0E4CB;
-    width: 90%;
-    margin: auto;
 
 }
