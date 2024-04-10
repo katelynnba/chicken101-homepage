@@ -13,10 +13,110 @@ main{
     margin: auto;
 }
 
+nav {
+    display:flex;
+    align-items: center;
+}
+
+
+.brownbutton {
+    background-color: #A13C1A;
+    border: 3px solid #522402;
+  border-radius: 12px;
+  color: #F1D043;
+  padding: 15px 32px;
+  text-align: center;
+  display: block;
+  font-size: 110%;
+  width: 30%;
+  height: 70px;
+  margin: 2%;
+  font-family: "Montserrat", sans-serif;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.brownbutton:hover {
+    background-color: #F1D043;
+    border: 3px solid #D44F22;
+  border-radius: 12px;
+  color: #D44F22;
+}
+
+.churken {
+    display:none;
+    position: relative;
+}
+
+.chcontent {
+   background-color: #F0E4CB;
+   border-width: 3px;
+   border-color: #522402;
+   border-style: solid;
+   max-width: fit-content;
+   display: table-cell;
+   position: relative;
+}
+
+.chcontent a {
+   padding: 16px 16px;
+   display: block;
+   font-size: 100%;
+   text-decoration: none;
+   text-align: center;
+   font-family: "Montserrat", sans-serif;
+   color: #522402;
+   border-style:inherit;
+}
+
+.chcontent a:hover {
+    color:#D44F22;
+    background-color: #F1D043;
+}
+
+
+.churken:hover, .brownbutton:focus + .churken {
+   display: block;
+   position: relative;
+}
+
+.orangebutton {
+    background-color: #ECA237;
+    border: 3px solid #D44F22;
+  border-radius: 12px;
+  color: #522402;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  font-size: 80%;
+  width: 7%;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  transition-duration: 0.2s;
+  text-decoration: none;
+
+}
+
+.orangebutton:hover {
+    background-color: #F1D043;
+    border: 3px solid #ECA237;
+  border-radius: 12px;
+  color: #522402;
+  transition-duration: 0.2s;
+  text-decoration: none;
+
+}
+
+
 #topper {
     background-color: #522402;
-    /* how do I make it fill the blank space above? */
+    display:flex;
 }
+
+.logo {
+    margin: 2%;
+}
+
 
 
 
