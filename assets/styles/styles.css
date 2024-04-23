@@ -3,7 +3,13 @@ body {
     color: hsl(0, 100%, 25%);
     text-align: left;
 }
-main{ 
+
+nav {
+    display:flex;
+    align-items: center;
+}
+
+main { 
     gap: 50px;
     background-color: #F0E4CB;
     border-color: #ECA237;
@@ -13,71 +19,14 @@ main{
     margin: auto;
 }
 
-nav {
-    display:flex;
-    align-items: center;
+.logo {
+    transform: scaleX(-1);
+    margin: 3% 9% 3% 9%;
+    
 }
 
-
-.brownbutton {
-    background-color: #A13C1A;
-    border: 3px solid #522402;
-  border-radius: 12px;
-  color: #F1D043;
-  padding: 15px 32px;
-  text-align: center;
-  display: block;
-  font-size: 110%;
-  width: 30%;
-  height: 70px;
-  margin: 2%;
-  font-family: "Montserrat", sans-serif;
-  transition-duration: 0.2s;
-  cursor: pointer;
-}
-
-.brownbutton:hover {
-    background-color: #F1D043;
-    border: 3px solid #D44F22;
-  border-radius: 12px;
-  color: #D44F22;
-}
-
-.churken {
-    display:none;
-    position: relative;
-}
-
-.chcontent {
-   background-color: #F0E4CB;
-   border-width: 3px;
-   border-color: #522402;
-   border-style: solid;
-   max-width: fit-content;
-   display: table-cell;
-   position: relative;
-}
-
-.chcontent a {
-   padding: 16px 16px;
-   display: block;
-   font-size: 100%;
-   text-decoration: none;
-   text-align: center;
-   font-family: "Montserrat", sans-serif;
-   color: #522402;
-   border-style:inherit;
-}
-
-.chcontent a:hover {
-    color:#D44F22;
-    background-color: #F1D043;
-}
-
-
-.churken:hover, .brownbutton:focus + .churken {
-   display: block;
-   position: relative;
+.secondlogo {
+    margin: 3% 9% 3% 9%;
 }
 
 .orangebutton {
@@ -113,17 +62,190 @@ nav {
     display:flex;
 }
 
-.logo {
-    margin: 2%;
-}
-
-
-
-
 h1 {
-    font-size: 30px;
+    font-family: "Kanit", sans-serif;
     color: #F1D043;
+    text-align: center;
 }
+
+.baby {
+    margin-left: 2%;
+    margin-top: 3%;
+    font-weight: 400;
+    font-size: 200%;
+
+}
+
+.beef {
+    font-weight: 600;
+    font-size: 300%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    width: 100%;
+    margin: 2% 2% 0% 2%; 
+  }
+
+.brownbutton {
+    width: 100%;
+    height: 70px;
+    max-width: none;
+    padding: 15px 32px;
+    display:block;
+    background-color: #A13C1A;
+    border: 3px solid #522402;
+    border-radius: 12px;
+    color: #F1D043;
+    text-align: center;
+    font-size: 110%;
+    font-family: "Montserrat", sans-serif;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.brownbutton:hover {
+    background-color: #F1D043;
+    border: 3px solid #D44F22;
+  border-radius: 12px;
+  color: #D44F22;
+}
+
+.churken {
+    display:none;
+    position: relative;
+    padding: 0;
+}
+
+.chcontent {
+    background-color: #F0E4CB;
+    border-width: 3px;
+    border-color: #522402;
+    border-style: solid;
+    display: table-cell;
+    position: relative;
+ }
+
+.chcontent a {
+   padding: 16px 16px;
+   display: block;
+   font-size: 100%;
+   text-decoration: none;
+   text-align: center;
+   font-family: "Montserrat", sans-serif;
+   color: #522402;
+   border-style:inherit;
+}
+
+.chcontent a:hover {
+    color:#D44F22;
+    background-color: #F1D043;
+}
+
+
+.churken:hover, .brownbutton:focus + .churken {
+    display: block;
+    position: relative;
+}
+
+.locationbar {
+    display: flex;
+    background-color: #F0E4CB;
+    border-width: 3px;
+    border-color: #522402;
+    border-style: solid;
+    width:max-content;
+    padding: 30px 50px;
+}
+
+.finder {
+    background-color: #ECA237;
+    border: 3px solid #D44F22;
+    border-radius: 12px;
+    color: #522402;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    width: 80%;
+    height: 40px;
+}
+
+.missionsection {
+    margin: 2% 2% 0% 2%;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #D44F22;
+    border: 3px solid #A13C1A;
+    border-color: #A13C1A;
+    border-radius: 6px;
+    color: #F1D043;
+    text-align: center;
+
+}
+
+.mission {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.video {
+    border: 6px solid #A13C1A;
+    border-radius: 6px;
+}
+
+.egglink {
+    text-decoration: none;
+    color:#F1D043;
+    font-family: "Kanit"
+}
+
+.egglink:hover {
+    color: #F0E4CB;
+}
+
+.farmtime {
+    display: 
+}
+
+.farmpicture {
+    border: 6px solid #A13C1A;
+    border-radius: 6px;
+    margin: 2%;
+    display: block;
+}
+
+.farmdetail{
+    margin: 2%;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+
+}
+
+h3 {
+ margin: 2%;
+ font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+    margin: 2%;
+    font-family: "Montserrat", sans-serif;
+}
+
 em{
     font-style:normal;
 }
@@ -133,7 +255,3 @@ em{
 
 }
 
-div{
-    
-
-}
