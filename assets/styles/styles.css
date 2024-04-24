@@ -82,8 +82,10 @@ h1 {
 }
 
 .main {
+    margin-top: 2%;
     display: flex;
     justify-content: space-between;
+    vertical-align: middle;
 }
 
 .buton {
@@ -208,7 +210,7 @@ h1 {
     padding-bottom: 2%;
     padding-left: 2%;
     margin: 2%;
-    margin-left: 38%;
+    margin-left: 34%;
     margin-right: 8%;
     width: 55%;
     height: fit-content;
@@ -228,7 +230,7 @@ h1 {
 }
 
 .brief {
-    margin-top: 3%;
+    vertical-align: auto;
     width: 40%;
     font-weight: 300;
     font-family: "Kanit", sans-serif;
@@ -254,18 +256,26 @@ h1 {
 
 .farmtime {
     margin: 4%;
+    display: flex;
+}
+
+.pic {
+    display: block;
+    margin-left: 6%;
 }
 
 .farmpicture {
-    display: block;
     border: 6px solid #A13C1A;
-    border-radius: 6px;
     margin: 2%;
+    width: 300px;
+    height: 200px;
 }
 
-.farmdetail{
-    margin: 2%;
-    width: 40%;
+.info{
+    vertical-align: middle;
+    float: right;
+    margin: 1%;
+    width: 60%;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -274,13 +284,28 @@ h2 {
 }
 
 h3 {
- margin: 2%;
+ margin-bottom: 1%;
  font-family: "Montserrat", sans-serif;
 }
 
 h4 {
-    margin: 2%;
+    margin-bottom: 2%;
     font-family: "Montserrat", sans-serif;
+}
+
+.stat {
+    font-weight: 450;
+}
+
+.farmlink {
+    color: #D44F22;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.farmlink:hover {
+    color: #ECA237;
+    font-weight: 600;
 }
 
 em{
