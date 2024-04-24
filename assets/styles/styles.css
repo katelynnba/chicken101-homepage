@@ -95,13 +95,12 @@ h1 {
 
 .button-container {
     margin: 3% 2% 0 8%; 
-    width: 120%;
+    width: 180%;
   }
 
 .brownbutton {
     width: 100%;
     height: 70px;
-    max-width: none;
     padding: 15px 32px;
     display:block;
     background-color: #A13C1A;
@@ -113,14 +112,23 @@ h1 {
     font-family: "Montserrat", sans-serif;
     transition-duration: 0.2s;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.drop-button {
+    fill: #F1D043;
+}
+
+.brownbutton svg{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
 }
 
 .brownbutton:hover {
     background-color: #F1D043;
-    border: 3px solid #D44F22;
-  border-radius: 12px;
-  color: #D44F22;
+    border-color: #D44F22;
+    color: #D44F22;
 }
 
 .churken {
@@ -154,7 +162,6 @@ h1 {
     background-color: #F1D043;
 }
 
-
 .churken:hover, .brownbutton:focus + .churken {
     display: block;
     position: absolute;
@@ -170,6 +177,13 @@ h1 {
     padding: 30px 50px;
 }
 
+.locationbar:hover {
+    border-color:#D44F22;
+    background-color: #F1D043;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
 .finder {
     background-color: #ECA237;
     border: 3px solid #D44F22;
@@ -181,18 +195,29 @@ h1 {
     height: 40px;
 }
 
+.finder:hover {
+    color:#F0E4CB;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    background-color: #A13C1A;
+    border-color: #522402;
+}
+
+
 .missionsection {
+    padding-bottom: 2%;
+    padding-left: 2%;
     margin: 2%;
-    margin-right: 4%;
-    padding: 10px 260px 10px 10px;
-    width: fit-content;
+    margin-left: 38%;
+    margin-right: 8%;
+    width: 55%;
     height: fit-content;
     background-color: #D44F22;
     border: 3px solid #A13C1A;
     border-color: #A13C1A;
     border-radius: 6px;
     color: #F1D043;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -202,12 +227,22 @@ h1 {
     font-style: italic;
 }
 
+.brief {
+    margin-top: 3%;
+    width: 40%;
+    font-weight: 300;
+    font-family: "Kanit", sans-serif;
+    text-align: left;
+    float: right;
+}
+
 .video {
     border: 6px solid #A13C1A;
     border-radius: 6px;
 }
 
 .egglink {
+    margin-left: 14%;
     text-decoration: none;
     color:#F1D043;
     font-family: "Kanit"
@@ -218,18 +253,19 @@ h1 {
 }
 
 .farmtime {
-    display: 
+    margin: 4%;
 }
 
 .farmpicture {
+    display: block;
     border: 6px solid #A13C1A;
     border-radius: 6px;
     margin: 2%;
-    display: block;
 }
 
 .farmdetail{
     margin: 2%;
+    width: 40%;
     font-family: "Montserrat", sans-serif;
 }
 
