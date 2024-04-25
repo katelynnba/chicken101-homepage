@@ -289,11 +289,13 @@ input {
     height: 200px;
 }
 
+
+
 .info{
     vertical-align: middle;
     float: right;
     margin: 1%;
-    width: 60%;
+    width: 55%;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -453,5 +455,7 @@ em{
    font-size:130%;
    letter-spacing: 4px;
 }
+
+
 
 
