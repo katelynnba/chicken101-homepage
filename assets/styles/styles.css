@@ -85,7 +85,6 @@ h1 {
     margin-top: 2%;
     display: flex;
     justify-content: space-between;
-    vertical-align: middle;
 }
 
 .buton {
@@ -103,7 +102,7 @@ h1 {
 .brownbutton {
     width: 100%;
     height: 70px;
-    padding: 15px 32px;
+    padding: 15px 15px;
     display:block;
     background-color: #A13C1A;
     border: 3px solid #522402;
@@ -327,6 +326,80 @@ em{
 
 .big {
     color: rgb(226, 106, 32);
-
 }
 
+.toptabs {
+    margin: 2%;
+    display: flex;
+    width: 100%;
+}
+
+.yellowbutton {
+    width: 35%;
+    margin: 1%;
+    height: 50px;
+    padding: 15px 8px;
+    background-color: #F1D043;
+    border: 3px solid #ECA237;
+    border-radius: 12px;
+    color: #A13C1A;
+    text-align: center;
+    font-size: 110%;
+    font-family: "Montserrat", sans-serif;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.yellowbutton svg{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+
+.ydrop-button {
+    fill: #A13C1A;
+}
+
+.yellowbutton:hover {
+    background-color: #D44F22;
+    border-color: #F0E4CB;
+    color: #F0E4CB;
+}
+
+.ychurken {
+    display:none;
+    position: absolute;
+    padding: 0;
+}
+
+.ychurken:hover, .yellowbutton:focus + .ychurken {
+    display: block;
+    position: relative;
+}
+
+.yellowcontent {
+    background-color: #F0E4CB;
+    border-width: 3px;
+    border-color: #522402;
+    border-style: solid;
+    position: absolute;
+    display: inline-block;
+ }
+
+.yellowcontent a {
+   padding: 16px 16px;
+   display: block;
+   font-size: 100%;
+   text-decoration: none;
+   text-align: center;
+   font-family: "Montserrat", sans-serif;
+   color: #522402;
+   border-style:inherit;
+}
+
+.yellowcontent a:hover {
+    color:#D44F22;
+    background-color: #F1D043;
+}
