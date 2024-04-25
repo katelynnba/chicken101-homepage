@@ -21,8 +21,7 @@ main {
 
 .logo {
     transform: scaleX(-1);
-    margin: 3% 9% 3% 9%;
-    
+    margin: 3% 9% 3% 9%;  
 }
 
 .secondlogo {
@@ -43,7 +42,6 @@ main {
   font-family: "Montserrat", sans-serif;
   transition-duration: 0.2s;
   text-decoration: none;
-
 }
 
 .orangebutton:hover {
@@ -53,7 +51,6 @@ main {
   color: #522402;
   transition-duration: 0.2s;
   text-decoration: none;
-
 }
 
 
@@ -102,7 +99,7 @@ h1 {
 .brownbutton {
     width: 100%;
     height: 70px;
-    padding: 15px 15px;
+    padding: 15px 35px;
     display:block;
     background-color: #A13C1A;
     border: 3px solid #522402;
@@ -117,7 +114,6 @@ h1 {
 }
 
 svg {
-    float: right;
 }
 
 .drop-button {
@@ -127,7 +123,7 @@ svg {
 .brownbutton svg{
     width: 40px;
     height: 40px;
-    vertical-align: middle;
+   vertical-align: middle;
     justify-content: center;
     align-items: center;
 }
@@ -142,15 +138,18 @@ svg {
     display:none;
     position: absolute;
     padding: 0;
+    margin-top: -20px;
 }
 
 .chcontent {
+    margin-left: 45px;
     background-color: #F0E4CB;
     border-width: 3px;
     border-color: #522402;
     border-style: solid;
     position: absolute;
     display: inline-block;
+    width: 300px;
  }
 
 .chcontent a {
@@ -175,12 +174,15 @@ svg {
 }
 
 .locationbar {
+    margin: 10px;
+    margin-top: -0.2px;
     display: flex;
     background-color: #F0E4CB;
     border-width: 3px;
     border-color: #522402;
     border-style: solid;
-    width:max-content;
+    height: 40px;
+    width:270px;
     padding: 30px 50px;
 }
 
@@ -192,31 +194,29 @@ svg {
 }
 
 .finder {
-    background-color: #ECA237;
-    border: 3px solid #D44F22;
-    border-radius: 12px;
-    color: #522402;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    width: 200%;
-    height: 40px;
+    fill: #522402;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,255,255,.0);
+    border-color: rgba(255,255,255,.5);
+    border-style: none;
+    margin-top: -30px;
 }
 
 .finder:hover {
-    color:#F0E4CB;
     transition-duration: 0.2s;
     cursor: pointer;
-    background-color: #A13C1A;
-    border-color: #522402;
+    fill: #D44F22;
 }
 
 input {
+    color: #522402;
+    font-family: "Montserrat", sans-serif;
     border: 3px solid #522402;
     border-radius: 50px;
-    width: 200%;
+    width: 300%;
     background-color: #F0E4CB;
 }
-
 
 .missionsection {
     padding-bottom: 2%;
@@ -242,12 +242,18 @@ input {
 }
 
 .brief {
-    vertical-align: auto;
     width: 40%;
     font-weight: 300;
     font-family: "Kanit", sans-serif;
     text-align: left;
-    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.alignment {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
 }
 
 .video {
@@ -351,8 +357,8 @@ em{
 }
 
 .yellowbutton svg{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     vertical-align: middle;
     justify-content: center;
     align-items: center;
@@ -372,6 +378,7 @@ em{
     display:none;
     position: absolute;
     padding: 0;
+    margin-top: 63px;
 }
 
 .ychurken:hover, .yellowbutton:focus + .ychurken {
@@ -380,6 +387,8 @@ em{
 }
 
 .yellowcontent {
+    width: 300px;
+    margin-left: -360px;
     background-color: #F0E4CB;
     border-width: 3px;
     border-color: #522402;
@@ -400,6 +409,49 @@ em{
 }
 
 .yellowcontent a:hover {
-    color:#D44F22;
-    background-color: #F1D043;
+    color: #F0E4CB;
+    background-color: #D44F22;
 }
+
+.yellowlocationbar {
+    position: absolute;
+    margin-left: -392px;
+    margin-top: -0.2px;
+    display: flex;
+    background-color: #F0E4CB;
+    border-width: 3px;
+    border-color: #522402;
+    border-style: solid;
+    height: 40px;
+    width:270px;
+    padding: 30px 50px;
+}
+
+.yellowlocationbar:hover {
+    border-color:#D44F22;
+    background-color: #F1D043;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.house {
+    width: 50px;
+    height: 50px;
+    fill: #522402;
+}
+
+.alpha {
+    margin: 1%;
+    display: flex;
+    gap: 50px;
+   margin-left: 20%;
+}
+
+.letta {
+    color: #522402;
+    font-family: "Kanit", sans-serif;
+   font-size:130%;
+   letter-spacing: 4px;
+}
+
+
