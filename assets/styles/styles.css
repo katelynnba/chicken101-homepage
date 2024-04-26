@@ -456,6 +456,30 @@ em{
    letter-spacing: 4px;
 }
 
+.pollo1, .pollo2, .pollo3, .pollo4, .pollo5, .pollo6, .pollo7, .pollo8, .pollo9, .pollo10, .pollo11, .pollo12, .pollo13, .pollo14, .pollo15, .pollo16, .pollo17, .pollo18, .pollo19, .pollo20, .pollo21, .pollo22, .pollo23, .pollo24 {
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 4%;
+    display: flex;
+}
+
+.pullets {
+    display: flex;
+    gap: 90px;
+}
+
+img {
+    vertical-align:bottom;
+    border-radius: 22px;
+}
+
+.mugshot {
+    border: 6px solid #522402;
+    border-radius: 30px;
+}
+
+
 
 
 
