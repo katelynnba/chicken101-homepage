@@ -456,7 +456,7 @@ em{
    letter-spacing: 4px;
 }
 
-.pollo1, .pollo2, .pollo3, .pollo4, .pollo5, .pollo6, .pollo7, .pollo8, .pollo9, .pollo10, .pollo11, .pollo12, .pollo13, .pollo14, .pollo15, .pollo16, .pollo17, .pollo18, .pollo19, .pollo20, .pollo21, .pollo22, .pollo23, .pollo24 {
+.pollo1, .pollo2, .pollo3, .pollo4, .pollo5, .pollo6, .pollo7, .pollo8 {
     margin-top: 2%;
     margin-left: 6%;
     margin-right: 6%;
@@ -478,6 +478,60 @@ img {
     border: 6px solid #522402;
     border-radius: 30px;
 }
+
+.intel {
+    color: #522402;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.breedname {
+    font-size: larger;
+}
+
+.lifespan {
+    margin-top: -15px;
+}
+
+.accesshome {
+
+}
+
+.return {
+    margin-left: -30px;
+    color: #522402;
+    font-family: "Montserrat", sans-serif;
+}
+
+.breedtitle {
+    display: flex;
+    margin: 3%;
+
+}
+
+.titlehouse {
+    width: 50px;
+    height: 50px;
+    fill: #522402;
+}
+
+
+h6 {
+    color: #522402;
+    font-family: "Kanit", sans-serif;
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 200%;
+}
+
+.return2 {
+    margin-top: -110px;
+    margin-left: 10px;
+    color: #522402;
+    font-family: "Montserrat", sans-serif;
+}
+
+
 
 
 
