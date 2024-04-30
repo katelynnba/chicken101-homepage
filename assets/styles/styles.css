@@ -85,7 +85,7 @@ h1 {
 }
 
 .buton {
-    margin-top: 4%;
+    margin-top: 2%;
     margin-left: 4%;
     display: flex;
     flex-direction: column;
@@ -93,31 +93,30 @@ h1 {
 
 .button-container {
     margin: 3% 2% 0 8%; 
-    width: 180%;
+    width: 155%;
   }
 
 .brownbutton {
     width: 100%;
-    height: 70px;
-    padding: 15px 35px;
-    display:block;
+    height: 80px;
+    padding: 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
     background-color: #A13C1A;
     border: 3px solid #522402;
     border-radius: 12px;
     color: #F1D043;
     text-align: center;
-    font-size: 120%;
+    font-size: 130%;
     font-family: "Montserrat", sans-serif;
     transition-duration: 0.2s;
     cursor: pointer;
     margin-bottom: 20px;
 }
 
-svg {
-}
-
 .drop-button {
-    fill: #F1D043;
+    fill: inherit;
 }
 
 .brownbutton svg{
@@ -142,7 +141,7 @@ svg {
 }
 
 .chcontent {
-    margin-left: 45px;
+    margin-left: 30px;
     background-color: #F0E4CB;
     border-width: 3px;
     border-color: #522402;
@@ -168,13 +167,13 @@ svg {
     background-color: #F1D043;
 }
 
-.churken:hover, .brownbutton:focus + .churken {
+.churken:hover, .brownbutton:hover + .churken {
     display: block;
     position: absolute;
 }
 
 .locationbar {
-    margin: 10px;
+    margin: 4px;
     margin-top: -0.2px;
     display: flex;
     background-color: #F0E4CB;
@@ -279,11 +278,11 @@ input {
 
 .pic {
     display: block;
-    margin-left: 6%;
+    margin-left: 4%;
 }
 
 .farmpicture {
-    border: 6px solid #A13C1A;
+    border: 6px solid #522402;
     margin: 2%;
     width: 300px;
     height: 200px;
@@ -343,6 +342,8 @@ em{
 }
 
 .yellowbutton {
+    justify-content: space-between;
+    align-items: center;
     width: 35%;
     margin: 1%;
     height: 50px;
@@ -362,12 +363,10 @@ em{
     width: 25px;
     height: 25px;
     vertical-align: middle;
-    justify-content: center;
-    align-items: center;
 }
 
 .ydrop-button {
-    fill: #A13C1A;
+    fill: inherit;
 }
 
 .yellowbutton:hover {
@@ -446,7 +445,11 @@ em{
     margin: 1%;
     display: flex;
     gap: 50px;
-   margin-left: 20%;
+    margin-left: 20%;
+}
+
+a:link, a:visited, a:hover {
+    text-decoration: none;
 }
 
 .letta {
@@ -457,15 +460,25 @@ em{
    letter-spacing: 4px;
 }
 
-a:link {
+#burp a:link {
     color: #D44F22;
 }
 
-a:visited {
+#burp a:visited {
     color: #522402;
 }
 
+#neutron a:link {
+    color:#522402;
+}
 
+#neutron a:hover {
+    color:#522402;
+}
+
+#neutron a:visited {
+    color:#522402;
+}
 
 .pollo1, .pollo2, .pollo3, .pollo4, .pollo5, .pollo6, .pollo7, .pollo8 {
     margin-top: 2%;
@@ -491,6 +504,7 @@ img {
 }
 
 .intel {
+    margin-top: -10px;
     color: #522402;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
@@ -501,7 +515,7 @@ img {
 }
 
 .lifespan {
-    margin-top: -15px;
+    margin-top: -20px;
 }
 
 .return {
@@ -584,9 +598,21 @@ h6 {
     border: 6px solid #522402;
 }
 
+.neutronstar {
+    margin-left: 900px;
+    margin-top: 25px;
+    background-color: #522402;
+    position: fixed;
+    width: 254px;
+    height: 520px;
+    color: #522402;
+    border-radius: 20px;
+}
+
 .sidebar {
     position: fixed;
     width: 100px;
+    margin-top: 30px;
 }
 
 .btn {
@@ -595,20 +621,20 @@ h6 {
     font-family: "Kanit", sans-serif;
     font-weight: bold;
     font-size: x-large;
-    background-color: #F1D043;
+    background-color: #D44F22;
     width: 100px;
     text-decoration: none;
     text-align: center;
     display: block;
     width: 200px;
-    padding: 10px;
-    border: 6px solid #D44F22;
-    border-radius: 10px;
+    padding: 5px;
+    border: 6px solid #ECA237;
+    border-radius: 50px;
+    margin: 5px;
 }
 
 .gurd {
    margin-left: 910px;
-
 }
 
 
