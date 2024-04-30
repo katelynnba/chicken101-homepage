@@ -452,9 +452,20 @@ em{
 .letta {
     color: #522402;
     font-family: "Kanit", sans-serif;
+    margin-top: 2%;
    font-size:130%;
    letter-spacing: 4px;
 }
+
+a:link {
+    color: #D44F22;
+}
+
+a:visited {
+    color: #522402;
+}
+
+
 
 .pollo1, .pollo2, .pollo3, .pollo4, .pollo5, .pollo6, .pollo7, .pollo8 {
     margin-top: 2%;
@@ -491,10 +502,6 @@ img {
 
 .lifespan {
     margin-top: -15px;
-}
-
-.accesshome {
-
 }
 
 .return {
@@ -560,6 +567,50 @@ h6 {
     font-family: "Montserrat", sans-serif;
     line-height: 25px;
 }
+
+.ex {
+    margin: 2%;
+    display: flex;
+    gap: 10px;
+}
+
+.ex2 {
+    margin: 2%;
+    display: flex;
+    gap: 10px;
+}
+
+.bonk {
+    border: 6px solid #522402;
+}
+
+.sidebar {
+    position: fixed;
+    width: 100px;
+}
+
+.btn {
+    color: #F0E4CB;
+    line-height: -40px;
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: #F1D043;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 200px;
+    padding: 10px;
+    border: 6px solid #D44F22;
+    border-radius: 10px;
+}
+
+.gurd {
+   margin-left: 910px;
+
+}
+
 
 
 
